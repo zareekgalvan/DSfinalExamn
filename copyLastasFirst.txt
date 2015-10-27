@@ -1,0 +1,5 @@
+template <typename T>
+void LinkedList<T>::copyLastasFirst()
+{
+    addFirst(get(count-1));
+}
